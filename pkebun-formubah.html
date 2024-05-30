@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>formubah-pk</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+
+</head>
+<body>
+    <nav class="navbar navbar-expand-lg navbar-dark navbar-custom">
+        <a class="navbar-brand" href="#">Logo</a>
+        <!-- <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button> -->
+    </nav> 
+    <div class="container mt-4">
+        <!-- Div pertama -->
+        <div>
+            <a href="./pkebun-hasilpanen.html" class="btn btn-primary mb-3">
+                <i class="fas fa-plus mr-1"></i> Kembali
+            </a>
+        </div>
+        <div>
+            <h1 class="judulform">Ubah Hasil Panen</h1>
+            <hr>
+            <form class="formubah">
+                <div class="form-group">
+                    <label for="tanggalPanen" class="mb-1">Tanggal Panen</label>
+                    <input type="text" class="form-control" id="tanggalPanen" placeholder="dd-mm-yyyy">
+                </div>
+                <div class="form-group">
+                    <label for="jumlah" class="mb-1">Jumlah</label>
+                    <input type="text" class="form-control" id="jumlah" placeholder="Masukkan jumlah panen (kg)">
+                </div>
+                <div class="form-group">
+                    <label for="jenisBuah" class="mb-1">Jenis Buah</label>
+                    <select class="form-control" id="namajenisbuah">
+                        <option value="Jenis A">Buah Naga A</option>
+                        <option value="Jenis B">Buah Naga B</option>
+                        <option value="Jenis C">Buah Naga C</option>
+                    </select>                
+                </div>
+                <div class="form-group">
+                    <label for="wilayah" class="mb-1">Wilayah</label>
+                    <select class="form-control" id="namaWilayah">
+                        <option value="Wilayah A">Wilayah A</option>
+                        <option value="Wilayah B">Wilayah B</option>
+                        <option value="Wilayah C">Wilayah C</option>
+                    </select>
+                </div>
+                <div class="form-group">
+                    <label for="namaGudang" class="mb-1">Nama Gudang</label>
+                    <select class="form-control" id="namaGudang">
+                        <option value="Gudang A">Gudang A</option>
+                        <option value="Gudang B">Gudang B</option>
+                        <option value="Gudang C">Gudang C</option>
+                    </select>
+                </div>
+                <a href="./pkebun-hasilpanen.html" class="btn btn-primary btnubah">Ubah</a>
+            </form>
+        </div>
+</body> 
